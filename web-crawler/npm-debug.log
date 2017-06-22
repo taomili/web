@@ -1,0 +1,1004 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-jsdom' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node-jsdom
+8 silly fetchNamedPackageData node-jsdom
+9 silly mapToRegistry name node-jsdom
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry uri https://registry.npm.taobao.org/node-jsdom
+13 verbose request uri https://registry.npm.taobao.org/node-jsdom
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 15:21:57
+16 verbose request id 7be7a0daa75d5491
+17 verbose etag "94ab-5GbFgtqz2YCRxOGABNKSDqWRnPE"
+18 http request GET https://registry.npm.taobao.org/node-jsdom
+19 http 304 https://registry.npm.taobao.org/node-jsdom
+20 verbose headers { date: 'Wed, 14 Jun 2017 07:22:03 GMT',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-current-requests': '1',
+20 verbose headers   etag: '"94ab-5GbFgtqz2YCRxOGABNKSDqWRnPE"',
+20 verbose headers   'x-readtime': '17' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Wed, 14 Jun 2017 07:22:03 GMT',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-current-requests': '1',
+21 silly get     etag: '"94ab-5GbFgtqz2YCRxOGABNKSDqWRnPE"',
+21 silly get     'x-readtime': '17' } ]
+22 verbose etag https://registry.npm.taobao.org/node-jsdom from cache
+23 verbose get saving node-jsdom to C:\Users\taomili\AppData\Roaming\npm-cache\registry.npm.taobao.org\node-jsdom\.cache.json
+24 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule node-jsdom@3.1.5 checking installable status
+38 silly cache add args [ 'node-jsdom', null ]
+39 verbose cache add spec node-jsdom
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'node-jsdom',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'node-jsdom',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed node-jsdom@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for node-jsdom
+43 info addNameTag [ 'node-jsdom', 'latest' ]
+44 silly mapToRegistry name node-jsdom
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npm.taobao.org/
+47 silly mapToRegistry uri https://registry.npm.taobao.org/node-jsdom
+48 verbose addNameTag registry:https://registry.npm.taobao.org/node-jsdom not in flight; fetching
+49 verbose get https://registry.npm.taobao.org/node-jsdom not expired, no request
+50 silly addNameTag next cb for node-jsdom with tag latest
+51 silly addNamed node-jsdom@3.1.5
+52 verbose addNamed "3.1.5" is a plain semver version for node-jsdom
+53 silly cache afterAdd node-jsdom@3.1.5
+54 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\node-jsdom\3.1.5\package\package.json not in flight; writing
+55 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+56 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\node-jsdom\3.1.5\package\package.json written
+57 silly fetchNamedPackageData contextify
+58 silly mapToRegistry name contextify
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npm.taobao.org/
+61 silly mapToRegistry uri https://registry.npm.taobao.org/contextify
+62 verbose request uri https://registry.npm.taobao.org/contextify
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 15:22:02
+65 verbose etag "9ba3-9XKHPUEKI0Ogz8xrrSO4ndo1UuY"
+66 http request GET https://registry.npm.taobao.org/contextify
+67 http 304 https://registry.npm.taobao.org/contextify
+68 verbose headers { date: 'Wed, 14 Jun 2017 07:22:05 GMT',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-current-requests': '1',
+68 verbose headers   etag: '"9ba3-9XKHPUEKI0Ogz8xrrSO4ndo1UuY"',
+68 verbose headers   'x-readtime': '19' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Wed, 14 Jun 2017 07:22:05 GMT',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-current-requests': '1',
+69 silly get     etag: '"9ba3-9XKHPUEKI0Ogz8xrrSO4ndo1UuY"',
+69 silly get     'x-readtime': '19' } ]
+70 verbose etag https://registry.npm.taobao.org/contextify from cache
+71 verbose get saving contextify to C:\Users\taomili\AppData\Roaming\npm-cache\registry.npm.taobao.org\contextify\.cache.json
+72 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+73 silly resolveWithNewModule contextify@0.1.15 checking installable status
+74 silly cache add args [ 'contextify@>= 0.1.9 < 0.2.0', null ]
+75 verbose cache add spec contextify@>= 0.1.9 < 0.2.0
+76 silly cache add parsed spec Result {
+76 silly cache add   raw: 'contextify@>= 0.1.9 < 0.2.0',
+76 silly cache add   scope: null,
+76 silly cache add   name: 'contextify',
+76 silly cache add   rawSpec: '>= 0.1.9 < 0.2.0',
+76 silly cache add   spec: '>=0.1.9 <0.2.0',
+76 silly cache add   type: 'range' }
+77 silly addNamed contextify@>=0.1.9 <0.2.0
+78 verbose addNamed ">=0.1.9 <0.2.0" is a valid semver range for contextify
+79 silly addNameRange { name: 'contextify', range: '>=0.1.9 <0.2.0', hasData: false }
+80 silly mapToRegistry name contextify
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npm.taobao.org/
+83 silly mapToRegistry uri https://registry.npm.taobao.org/contextify
+84 verbose addNameRange registry:https://registry.npm.taobao.org/contextify not in flight; fetching
+85 verbose get https://registry.npm.taobao.org/contextify not expired, no request
+86 silly addNameRange number 2 { name: 'contextify', range: '>=0.1.9 <0.2.0', hasData: true }
+87 silly addNameRange versions [ 'contextify',
+87 silly addNameRange   [ '0.1.15',
+87 silly addNameRange     '0.1.14',
+87 silly addNameRange     '0.1.13',
+87 silly addNameRange     '0.1.12',
+87 silly addNameRange     '0.1.11',
+87 silly addNameRange     '0.1.10',
+87 silly addNameRange     '0.1.9',
+87 silly addNameRange     '0.1.8',
+87 silly addNameRange     '0.1.7',
+87 silly addNameRange     '0.1.6',
+87 silly addNameRange     '0.1.5',
+87 silly addNameRange     '0.1.4',
+87 silly addNameRange     '0.1.3',
+87 silly addNameRange     '0.1.2',
+87 silly addNameRange     '0.1.1',
+87 silly addNameRange     '0.1.0',
+87 silly addNameRange     '0.0.7',
+87 silly addNameRange     '0.0.6',
+87 silly addNameRange     '0.0.5',
+87 silly addNameRange     '0.0.4',
+87 silly addNameRange     '0.0.3',
+87 silly addNameRange     '0.0.2' ] ]
+88 silly addNamed contextify@0.1.15
+89 verbose addNamed "0.1.15" is a plain semver version for contextify
+90 silly cache afterAdd contextify@0.1.15
+91 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\contextify\0.1.15\package\package.json not in flight; writing
+92 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+93 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\contextify\0.1.15\package\package.json written
+94 silly fetchNamedPackageData bindings
+95 silly mapToRegistry name bindings
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry https://registry.npm.taobao.org/
+98 silly mapToRegistry uri https://registry.npm.taobao.org/bindings
+99 silly fetchNamedPackageData nan
+100 silly mapToRegistry name nan
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npm.taobao.org/
+103 silly mapToRegistry uri https://registry.npm.taobao.org/nan
+104 verbose request uri https://registry.npm.taobao.org/bindings
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 15:22:03
+107 verbose etag "4cdd-fv0/LYzZgxuF6YqlB7IK6AfQ3J4"
+108 http request GET https://registry.npm.taobao.org/bindings
+109 verbose request uri https://registry.npm.taobao.org/nan
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 15:22:03
+112 verbose etag "21ef4-8C1NClLU8KxOvGkVi6Gk6SNA0AU"
+113 http request GET https://registry.npm.taobao.org/nan
+114 http 304 https://registry.npm.taobao.org/bindings
+115 verbose headers { date: 'Wed, 14 Jun 2017 07:22:06 GMT',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'x-current-requests': '1',
+115 verbose headers   etag: '"4cdd-fv0/LYzZgxuF6YqlB7IK6AfQ3J4"',
+115 verbose headers   'x-readtime': '18' }
+116 silly get cb [ 304,
+116 silly get   { date: 'Wed, 14 Jun 2017 07:22:06 GMT',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-current-requests': '1',
+116 silly get     etag: '"4cdd-fv0/LYzZgxuF6YqlB7IK6AfQ3J4"',
+116 silly get     'x-readtime': '18' } ]
+117 verbose etag https://registry.npm.taobao.org/bindings from cache
+118 verbose get saving bindings to C:\Users\taomili\AppData\Roaming\npm-cache\registry.npm.taobao.org\bindings\.cache.json
+119 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+120 http 304 https://registry.npm.taobao.org/nan
+121 verbose headers { date: 'Wed, 14 Jun 2017 07:22:06 GMT',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-current-requests': '1',
+121 verbose headers   etag: '"21ef4-8C1NClLU8KxOvGkVi6Gk6SNA0AU"',
+121 verbose headers   'x-readtime': '32' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Wed, 14 Jun 2017 07:22:06 GMT',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-current-requests': '1',
+122 silly get     etag: '"21ef4-8C1NClLU8KxOvGkVi6Gk6SNA0AU"',
+122 silly get     'x-readtime': '32' } ]
+123 verbose etag https://registry.npm.taobao.org/nan from cache
+124 verbose get saving nan to C:\Users\taomili\AppData\Roaming\npm-cache\registry.npm.taobao.org\nan\.cache.json
+125 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+126 silly resolveWithNewModule bindings@1.2.1 checking installable status
+127 silly cache add args [ 'bindings@^1.2.1', null ]
+128 verbose cache add spec bindings@^1.2.1
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'bindings@^1.2.1',
+129 silly cache add   scope: null,
+129 silly cache add   name: 'bindings',
+129 silly cache add   rawSpec: '^1.2.1',
+129 silly cache add   spec: '>=1.2.1 <2.0.0',
+129 silly cache add   type: 'range' }
+130 silly addNamed bindings@>=1.2.1 <2.0.0
+131 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for bindings
+132 silly addNameRange { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: false }
+133 silly mapToRegistry name bindings
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npm.taobao.org/
+136 silly mapToRegistry uri https://registry.npm.taobao.org/bindings
+137 verbose addNameRange registry:https://registry.npm.taobao.org/bindings not in flight; fetching
+138 verbose get https://registry.npm.taobao.org/bindings not expired, no request
+139 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <2.0.0', hasData: true }
+140 silly addNameRange versions [ 'bindings',
+140 silly addNameRange   [ '1.2.1',
+140 silly addNameRange     '1.2.0',
+140 silly addNameRange     '1.1.1',
+140 silly addNameRange     '1.1.0',
+140 silly addNameRange     '1.0.0',
+140 silly addNameRange     '0.4.0',
+140 silly addNameRange     '0.3.0',
+140 silly addNameRange     '0.2.4',
+140 silly addNameRange     '0.2.3',
+140 silly addNameRange     '0.2.2',
+140 silly addNameRange     '0.2.1',
+140 silly addNameRange     '0.2.0',
+140 silly addNameRange     '0.1.1',
+140 silly addNameRange     '0.1.0',
+140 silly addNameRange     '0.0.1' ] ]
+141 silly addNamed bindings@1.2.1
+142 verbose addNamed "1.2.1" is a plain semver version for bindings
+143 silly cache afterAdd bindings@1.2.1
+144 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+145 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+146 silly resolveWithNewModule nan@2.6.2 checking installable status
+147 silly cache add args [ 'nan@^2.1.0', null ]
+148 verbose cache add spec nan@^2.1.0
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'nan@^2.1.0',
+149 silly cache add   scope: null,
+149 silly cache add   name: 'nan',
+149 silly cache add   rawSpec: '^2.1.0',
+149 silly cache add   spec: '>=2.1.0 <3.0.0',
+149 silly cache add   type: 'range' }
+150 silly addNamed nan@>=2.1.0 <3.0.0
+151 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for nan
+152 silly addNameRange { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: false }
+153 silly mapToRegistry name nan
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npm.taobao.org/
+156 silly mapToRegistry uri https://registry.npm.taobao.org/nan
+157 verbose addNameRange registry:https://registry.npm.taobao.org/nan not in flight; fetching
+158 verbose get https://registry.npm.taobao.org/nan not expired, no request
+159 silly addNameRange number 2 { name: 'nan', range: '>=2.1.0 <3.0.0', hasData: true }
+160 silly addNameRange versions [ 'nan',
+160 silly addNameRange   [ '2.6.2',
+160 silly addNameRange     '2.6.1',
+160 silly addNameRange     '2.6.0',
+160 silly addNameRange     '2.5.1',
+160 silly addNameRange     '2.5.0',
+160 silly addNameRange     '2.4.0',
+160 silly addNameRange     '2.3.5',
+160 silly addNameRange     '2.3.4',
+160 silly addNameRange     '2.3.3',
+160 silly addNameRange     '2.3.2',
+160 silly addNameRange     '2.3.1',
+160 silly addNameRange     '2.3.0',
+160 silly addNameRange     '2.2.1',
+160 silly addNameRange     '2.2.0',
+160 silly addNameRange     '2.1.0',
+160 silly addNameRange     '2.0.9',
+160 silly addNameRange     '2.0.8',
+160 silly addNameRange     '2.0.7',
+160 silly addNameRange     '2.0.6',
+160 silly addNameRange     '2.0.5',
+160 silly addNameRange     '2.0.4',
+160 silly addNameRange     '2.0.3',
+160 silly addNameRange     '2.0.2',
+160 silly addNameRange     '2.0.1',
+160 silly addNameRange     '2.0.0',
+160 silly addNameRange     '1.9.0',
+160 silly addNameRange     '1.8.4',
+160 silly addNameRange     '1.8.3',
+160 silly addNameRange     '1.8.2',
+160 silly addNameRange     '1.8.1',
+160 silly addNameRange     '1.8.0',
+160 silly addNameRange     '1.7.0',
+160 silly addNameRange     '1.6.2',
+160 silly addNameRange     '1.6.1',
+160 silly addNameRange     '1.5.3',
+160 silly addNameRange     '1.6.0',
+160 silly addNameRange     '1.5.2',
+160 silly addNameRange     '1.5.1',
+160 silly addNameRange     '1.4.3',
+160 silly addNameRange     '1.4.2',
+160 silly addNameRange     '1.5.0',
+160 silly addNameRange     '1.4.1',
+160 silly addNameRange     '1.4.0',
+160 silly addNameRange     '1.3.0',
+160 silly addNameRange     '1.2.0',
+160 silly addNameRange     '1.1.2',
+160 silly addNameRange     '1.1.1',
+160 silly addNameRange     '1.1.0',
+160 silly addNameRange     '1.0.0',
+160 silly addNameRange     '0.8.0',
+160 silly addNameRange     '0.7.1',
+160 silly addNameRange     '0.7.0',
+160 silly addNameRange     '0.6.0',
+160 silly addNameRange     '0.5.2',
+160 silly addNameRange     '0.5.1',
+160 silly addNameRange     '0.5.0',
+160 silly addNameRange     '0.4.4',
+160 silly addNameRange     '0.4.3',
+160 silly addNameRange     '0.4.2',
+160 silly addNameRange     '0.4.1',
+160 silly addNameRange     '0.4.0',
+160 silly addNameRange     '0.3.2',
+160 silly addNameRange     '0.3.1',
+160 silly addNameRange     '0.3.0',
+160 silly addNameRange     '0.3.0-wip2',
+160 silly addNameRange     '0.3.0-wip' ] ]
+161 silly addNamed nan@2.6.2
+162 verbose addNamed "2.6.2" is a plain semver version for nan
+163 silly cache afterAdd nan@2.6.2
+164 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+165 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+166 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+167 verbose afterAdd C:\Users\taomili\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+168 silly loadAllDepsIntoIdealTree Finishing
+169 silly idealTree:prePrune web-crawler@1.0.0
+169 silly idealTree:prePrune +-- acorn-globals@1.0.9
+169 silly idealTree:prePrune | `-- acorn@2.7.0
+169 silly idealTree:prePrune +-- acorn@0.11.0
+169 silly idealTree:prePrune +-- ajv@4.11.8
+169 silly idealTree:prePrune +-- amdefine@1.0.1
+169 silly idealTree:prePrune +-- asn1@0.2.3
+169 silly idealTree:prePrune +-- assert-plus@0.2.0
+169 silly idealTree:prePrune +-- asynckit@0.4.0
+169 silly idealTree:prePrune +-- aws-sign2@0.6.0
+169 silly idealTree:prePrune +-- aws4@1.6.0
+169 silly idealTree:prePrune +-- bcrypt-pbkdf@1.0.1
+169 silly idealTree:prePrune +-- bindings@1.2.1
+169 silly idealTree:prePrune +-- boom@2.10.1
+169 silly idealTree:prePrune +-- browser-request@0.3.3
+169 silly idealTree:prePrune +-- caseless@0.12.0
+169 silly idealTree:prePrune +-- co@4.6.0
+169 silly idealTree:prePrune +-- combined-stream@1.0.5
+169 silly idealTree:prePrune +-- contextify@0.1.15
+169 silly idealTree:prePrune +-- core-util-is@1.0.2
+169 silly idealTree:prePrune +-- cryptiles@2.0.5
+169 silly idealTree:prePrune +-- cssom@0.3.2
+169 silly idealTree:prePrune +-- cssstyle@0.2.37
+169 silly idealTree:prePrune +-- dashdash@1.14.1
+169 silly idealTree:prePrune | `-- assert-plus@1.0.0
+169 silly idealTree:prePrune +-- deep-is@0.1.3
+169 silly idealTree:prePrune +-- delayed-stream@1.0.0
+169 silly idealTree:prePrune +-- dom-serializer@0.1.0
+169 silly idealTree:prePrune | `-- domelementtype@1.1.3
+169 silly idealTree:prePrune +-- domelementtype@1.3.0
+169 silly idealTree:prePrune +-- domhandler@2.4.1
+169 silly idealTree:prePrune +-- domutils@1.6.2
+169 silly idealTree:prePrune +-- ecc-jsbn@0.1.1
+169 silly idealTree:prePrune +-- entities@1.1.1
+169 silly idealTree:prePrune +-- escodegen@1.8.1
+169 silly idealTree:prePrune +-- esprima@2.7.3
+169 silly idealTree:prePrune +-- estraverse@1.9.3
+169 silly idealTree:prePrune +-- esutils@2.0.2
+169 silly idealTree:prePrune +-- extend@3.0.1
+169 silly idealTree:prePrune +-- extsprintf@1.0.2
+169 silly idealTree:prePrune +-- fast-levenshtein@2.0.6
+169 silly idealTree:prePrune +-- forever-agent@0.6.1
+169 silly idealTree:prePrune +-- form-data@2.1.4
+169 silly idealTree:prePrune +-- getpass@0.1.7
+169 silly idealTree:prePrune | `-- assert-plus@1.0.0
+169 silly idealTree:prePrune +-- har-schema@1.0.5
+169 silly idealTree:prePrune +-- har-validator@4.2.1
+169 silly idealTree:prePrune +-- hawk@3.1.3
+169 silly idealTree:prePrune +-- hoek@2.16.3
+169 silly idealTree:prePrune +-- htmlparser2@3.9.2
+169 silly idealTree:prePrune +-- http-signature@1.1.1
+169 silly idealTree:prePrune +-- inherits@2.0.3
+169 silly idealTree:prePrune +-- is-typedarray@1.0.0
+169 silly idealTree:prePrune +-- isarray@1.0.0
+169 silly idealTree:prePrune +-- isstream@0.1.2
+169 silly idealTree:prePrune +-- jsbn@0.1.1
+169 silly idealTree:prePrune +-- json-schema@0.2.3
+169 silly idealTree:prePrune +-- json-stable-stringify@1.0.1
+169 silly idealTree:prePrune +-- json-stringify-safe@5.0.1
+169 silly idealTree:prePrune +-- jsonify@0.0.0
+169 silly idealTree:prePrune +-- jsprim@1.4.0
+169 silly idealTree:prePrune | `-- assert-plus@1.0.0
+169 silly idealTree:prePrune +-- levn@0.3.0
+169 silly idealTree:prePrune +-- mime-db@1.27.0
+169 silly idealTree:prePrune +-- mime-types@2.1.15
+169 silly idealTree:prePrune +-- nan@2.6.2
+169 silly idealTree:prePrune +-- node-jsdom@3.1.5
+169 silly idealTree:prePrune +-- nwmatcher@1.4.0
+169 silly idealTree:prePrune +-- oauth-sign@0.8.2
+169 silly idealTree:prePrune +-- optionator@0.8.2
+169 silly idealTree:prePrune +-- parse5@1.5.1
+169 silly idealTree:prePrune +-- performance-now@0.2.0
+169 silly idealTree:prePrune +-- prelude-ls@1.1.2
+169 silly idealTree:prePrune +-- process-nextick-args@1.0.7
+169 silly idealTree:prePrune +-- punycode@1.4.1
+169 silly idealTree:prePrune +-- qs@6.4.0
+169 silly idealTree:prePrune +-- readable-stream@2.2.11
+169 silly idealTree:prePrune +-- request@2.81.0
+169 silly idealTree:prePrune +-- safe-buffer@5.0.1
+169 silly idealTree:prePrune +-- sntp@1.0.9
+169 silly idealTree:prePrune +-- source-map@0.2.0
+169 silly idealTree:prePrune +-- sshpk@1.13.1
+169 silly idealTree:prePrune | `-- assert-plus@1.0.0
+169 silly idealTree:prePrune +-- string_decoder@1.0.2
+169 silly idealTree:prePrune +-- stringstream@0.0.5
+169 silly idealTree:prePrune +-- tough-cookie@2.3.2
+169 silly idealTree:prePrune +-- tunnel-agent@0.6.0
+169 silly idealTree:prePrune +-- tweetnacl@0.14.5
+169 silly idealTree:prePrune +-- type-check@0.3.2
+169 silly idealTree:prePrune +-- util-deprecate@1.0.2
+169 silly idealTree:prePrune +-- uuid@3.0.1
+169 silly idealTree:prePrune +-- verror@1.3.6
+169 silly idealTree:prePrune +-- wordwrap@1.0.0
+169 silly idealTree:prePrune +-- xml-name-validator@1.0.0
+169 silly idealTree:prePrune `-- xmlhttprequest@1.8.0
+170 silly loadIdealTree Finishing
+171 silly currentTree web-crawler@1.0.0
+171 silly currentTree +-- acorn-globals@1.0.9
+171 silly currentTree | `-- acorn@2.7.0
+171 silly currentTree +-- acorn@0.11.0
+171 silly currentTree +-- ajv@4.11.8
+171 silly currentTree +-- amdefine@1.0.1
+171 silly currentTree +-- asn1@0.2.3
+171 silly currentTree +-- assert-plus@0.2.0
+171 silly currentTree +-- asynckit@0.4.0
+171 silly currentTree +-- aws-sign2@0.6.0
+171 silly currentTree +-- aws4@1.6.0
+171 silly currentTree +-- bcrypt-pbkdf@1.0.1
+171 silly currentTree +-- boom@2.10.1
+171 silly currentTree +-- browser-request@0.3.3
+171 silly currentTree +-- caseless@0.12.0
+171 silly currentTree +-- co@4.6.0
+171 silly currentTree +-- combined-stream@1.0.5
+171 silly currentTree +-- core-util-is@1.0.2
+171 silly currentTree +-- cryptiles@2.0.5
+171 silly currentTree +-- cssom@0.3.2
+171 silly currentTree +-- cssstyle@0.2.37
+171 silly currentTree +-- dashdash@1.14.1
+171 silly currentTree | `-- assert-plus@1.0.0
+171 silly currentTree +-- deep-is@0.1.3
+171 silly currentTree +-- delayed-stream@1.0.0
+171 silly currentTree +-- dom-serializer@0.1.0
+171 silly currentTree | `-- domelementtype@1.1.3
+171 silly currentTree +-- domelementtype@1.3.0
+171 silly currentTree +-- domhandler@2.4.1
+171 silly currentTree +-- domutils@1.6.2
+171 silly currentTree +-- ecc-jsbn@0.1.1
+171 silly currentTree +-- entities@1.1.1
+171 silly currentTree +-- escodegen@1.8.1
+171 silly currentTree +-- esprima@2.7.3
+171 silly currentTree +-- estraverse@1.9.3
+171 silly currentTree +-- esutils@2.0.2
+171 silly currentTree +-- extend@3.0.1
+171 silly currentTree +-- extsprintf@1.0.2
+171 silly currentTree +-- fast-levenshtein@2.0.6
+171 silly currentTree +-- forever-agent@0.6.1
+171 silly currentTree +-- form-data@2.1.4
+171 silly currentTree +-- getpass@0.1.7
+171 silly currentTree | `-- assert-plus@1.0.0
+171 silly currentTree +-- har-schema@1.0.5
+171 silly currentTree +-- har-validator@4.2.1
+171 silly currentTree +-- hawk@3.1.3
+171 silly currentTree +-- hoek@2.16.3
+171 silly currentTree +-- htmlparser2@3.9.2
+171 silly currentTree +-- http-signature@1.1.1
+171 silly currentTree +-- inherits@2.0.3
+171 silly currentTree +-- is-typedarray@1.0.0
+171 silly currentTree +-- isarray@1.0.0
+171 silly currentTree +-- isstream@0.1.2
+171 silly currentTree +-- jsbn@0.1.1
+171 silly currentTree +-- json-schema@0.2.3
+171 silly currentTree +-- json-stable-stringify@1.0.1
+171 silly currentTree +-- json-stringify-safe@5.0.1
+171 silly currentTree +-- jsonify@0.0.0
+171 silly currentTree +-- jsprim@1.4.0
+171 silly currentTree | `-- assert-plus@1.0.0
+171 silly currentTree +-- levn@0.3.0
+171 silly currentTree +-- mime-db@1.27.0
+171 silly currentTree +-- mime-types@2.1.15
+171 silly currentTree +-- nwmatcher@1.4.0
+171 silly currentTree +-- oauth-sign@0.8.2
+171 silly currentTree +-- optionator@0.8.2
+171 silly currentTree +-- parse5@1.5.1
+171 silly currentTree +-- performance-now@0.2.0
+171 silly currentTree +-- prelude-ls@1.1.2
+171 silly currentTree +-- process-nextick-args@1.0.7
+171 silly currentTree +-- punycode@1.4.1
+171 silly currentTree +-- qs@6.4.0
+171 silly currentTree +-- readable-stream@2.2.11
+171 silly currentTree +-- request@2.81.0
+171 silly currentTree +-- safe-buffer@5.0.1
+171 silly currentTree +-- sntp@1.0.9
+171 silly currentTree +-- source-map@0.2.0
+171 silly currentTree +-- sshpk@1.13.1
+171 silly currentTree | `-- assert-plus@1.0.0
+171 silly currentTree +-- string_decoder@1.0.2
+171 silly currentTree +-- stringstream@0.0.5
+171 silly currentTree +-- tough-cookie@2.3.2
+171 silly currentTree +-- tunnel-agent@0.6.0
+171 silly currentTree +-- tweetnacl@0.14.5
+171 silly currentTree +-- type-check@0.3.2
+171 silly currentTree +-- util-deprecate@1.0.2
+171 silly currentTree +-- uuid@3.0.1
+171 silly currentTree +-- verror@1.3.6
+171 silly currentTree +-- wordwrap@1.0.0
+171 silly currentTree +-- xml-name-validator@1.0.0
+171 silly currentTree `-- xmlhttprequest@1.8.0
+172 silly idealTree web-crawler@1.0.0
+172 silly idealTree +-- acorn-globals@1.0.9
+172 silly idealTree | `-- acorn@2.7.0
+172 silly idealTree +-- acorn@0.11.0
+172 silly idealTree +-- ajv@4.11.8
+172 silly idealTree +-- amdefine@1.0.1
+172 silly idealTree +-- asn1@0.2.3
+172 silly idealTree +-- assert-plus@0.2.0
+172 silly idealTree +-- asynckit@0.4.0
+172 silly idealTree +-- aws-sign2@0.6.0
+172 silly idealTree +-- aws4@1.6.0
+172 silly idealTree +-- bcrypt-pbkdf@1.0.1
+172 silly idealTree +-- bindings@1.2.1
+172 silly idealTree +-- boom@2.10.1
+172 silly idealTree +-- browser-request@0.3.3
+172 silly idealTree +-- caseless@0.12.0
+172 silly idealTree +-- co@4.6.0
+172 silly idealTree +-- combined-stream@1.0.5
+172 silly idealTree +-- contextify@0.1.15
+172 silly idealTree +-- core-util-is@1.0.2
+172 silly idealTree +-- cryptiles@2.0.5
+172 silly idealTree +-- cssom@0.3.2
+172 silly idealTree +-- cssstyle@0.2.37
+172 silly idealTree +-- dashdash@1.14.1
+172 silly idealTree | `-- assert-plus@1.0.0
+172 silly idealTree +-- deep-is@0.1.3
+172 silly idealTree +-- delayed-stream@1.0.0
+172 silly idealTree +-- dom-serializer@0.1.0
+172 silly idealTree | `-- domelementtype@1.1.3
+172 silly idealTree +-- domelementtype@1.3.0
+172 silly idealTree +-- domhandler@2.4.1
+172 silly idealTree +-- domutils@1.6.2
+172 silly idealTree +-- ecc-jsbn@0.1.1
+172 silly idealTree +-- entities@1.1.1
+172 silly idealTree +-- escodegen@1.8.1
+172 silly idealTree +-- esprima@2.7.3
+172 silly idealTree +-- estraverse@1.9.3
+172 silly idealTree +-- esutils@2.0.2
+172 silly idealTree +-- extend@3.0.1
+172 silly idealTree +-- extsprintf@1.0.2
+172 silly idealTree +-- fast-levenshtein@2.0.6
+172 silly idealTree +-- forever-agent@0.6.1
+172 silly idealTree +-- form-data@2.1.4
+172 silly idealTree +-- getpass@0.1.7
+172 silly idealTree | `-- assert-plus@1.0.0
+172 silly idealTree +-- har-schema@1.0.5
+172 silly idealTree +-- har-validator@4.2.1
+172 silly idealTree +-- hawk@3.1.3
+172 silly idealTree +-- hoek@2.16.3
+172 silly idealTree +-- htmlparser2@3.9.2
+172 silly idealTree +-- http-signature@1.1.1
+172 silly idealTree +-- inherits@2.0.3
+172 silly idealTree +-- is-typedarray@1.0.0
+172 silly idealTree +-- isarray@1.0.0
+172 silly idealTree +-- isstream@0.1.2
+172 silly idealTree +-- jsbn@0.1.1
+172 silly idealTree +-- json-schema@0.2.3
+172 silly idealTree +-- json-stable-stringify@1.0.1
+172 silly idealTree +-- json-stringify-safe@5.0.1
+172 silly idealTree +-- jsonify@0.0.0
+172 silly idealTree +-- jsprim@1.4.0
+172 silly idealTree | `-- assert-plus@1.0.0
+172 silly idealTree +-- levn@0.3.0
+172 silly idealTree +-- mime-db@1.27.0
+172 silly idealTree +-- mime-types@2.1.15
+172 silly idealTree +-- nan@2.6.2
+172 silly idealTree +-- node-jsdom@3.1.5
+172 silly idealTree +-- nwmatcher@1.4.0
+172 silly idealTree +-- oauth-sign@0.8.2
+172 silly idealTree +-- optionator@0.8.2
+172 silly idealTree +-- parse5@1.5.1
+172 silly idealTree +-- performance-now@0.2.0
+172 silly idealTree +-- prelude-ls@1.1.2
+172 silly idealTree +-- process-nextick-args@1.0.7
+172 silly idealTree +-- punycode@1.4.1
+172 silly idealTree +-- qs@6.4.0
+172 silly idealTree +-- readable-stream@2.2.11
+172 silly idealTree +-- request@2.81.0
+172 silly idealTree +-- safe-buffer@5.0.1
+172 silly idealTree +-- sntp@1.0.9
+172 silly idealTree +-- source-map@0.2.0
+172 silly idealTree +-- sshpk@1.13.1
+172 silly idealTree | `-- assert-plus@1.0.0
+172 silly idealTree +-- string_decoder@1.0.2
+172 silly idealTree +-- stringstream@0.0.5
+172 silly idealTree +-- tough-cookie@2.3.2
+172 silly idealTree +-- tunnel-agent@0.6.0
+172 silly idealTree +-- tweetnacl@0.14.5
+172 silly idealTree +-- type-check@0.3.2
+172 silly idealTree +-- util-deprecate@1.0.2
+172 silly idealTree +-- uuid@3.0.1
+172 silly idealTree +-- verror@1.3.6
+172 silly idealTree +-- wordwrap@1.0.0
+172 silly idealTree +-- xml-name-validator@1.0.0
+172 silly idealTree `-- xmlhttprequest@1.8.0
+173 silly generateActionsToTake Starting
+174 silly install generateActionsToTake
+175 silly generateActionsToTake Finishing
+176 silly diffTrees action count 4
+177 silly diffTrees add bindings@1.2.1
+178 silly diffTrees add nan@2.6.2
+179 silly diffTrees add contextify@0.1.15
+180 silly diffTrees add node-jsdom@3.1.5
+181 silly decomposeActions action count 32
+182 silly decomposeActions fetch bindings@1.2.1
+183 silly decomposeActions extract bindings@1.2.1
+184 silly decomposeActions test bindings@1.2.1
+185 silly decomposeActions preinstall bindings@1.2.1
+186 silly decomposeActions build bindings@1.2.1
+187 silly decomposeActions install bindings@1.2.1
+188 silly decomposeActions postinstall bindings@1.2.1
+189 silly decomposeActions finalize bindings@1.2.1
+190 silly decomposeActions fetch nan@2.6.2
+191 silly decomposeActions extract nan@2.6.2
+192 silly decomposeActions test nan@2.6.2
+193 silly decomposeActions preinstall nan@2.6.2
+194 silly decomposeActions build nan@2.6.2
+195 silly decomposeActions install nan@2.6.2
+196 silly decomposeActions postinstall nan@2.6.2
+197 silly decomposeActions finalize nan@2.6.2
+198 silly decomposeActions fetch contextify@0.1.15
+199 silly decomposeActions extract contextify@0.1.15
+200 silly decomposeActions test contextify@0.1.15
+201 silly decomposeActions preinstall contextify@0.1.15
+202 silly decomposeActions build contextify@0.1.15
+203 silly decomposeActions install contextify@0.1.15
+204 silly decomposeActions postinstall contextify@0.1.15
+205 silly decomposeActions finalize contextify@0.1.15
+206 silly decomposeActions fetch node-jsdom@3.1.5
+207 silly decomposeActions extract node-jsdom@3.1.5
+208 silly decomposeActions test node-jsdom@3.1.5
+209 silly decomposeActions preinstall node-jsdom@3.1.5
+210 silly decomposeActions build node-jsdom@3.1.5
+211 silly decomposeActions install node-jsdom@3.1.5
+212 silly decomposeActions postinstall node-jsdom@3.1.5
+213 silly decomposeActions finalize node-jsdom@3.1.5
+214 silly executeActions Starting
+215 silly install executeActions
+216 silly doSerial global-install 0
+217 silly doParallel fetch 4
+218 verbose correctMkdir C:\Users\taomili\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+219 verbose lock using C:\Users\taomili\AppData\Roaming\npm-cache\_locks\staging-467a112aa65b3edc.lock for D:\workspace\webstorm\web-crawler\node_modules\.staging
+220 silly doParallel extract 4
+221 silly extract bindings@1.2.1
+222 silly extract nan@2.6.2
+223 silly extract contextify@0.1.15
+224 silly extract node-jsdom@3.1.5
+225 verbose unbuild node_modules\.staging\bindings-33b7d2b1
+226 verbose unbuild node_modules\.staging\contextify-134f4c88
+227 verbose unbuild node_modules\.staging\nan-d67853f0
+228 verbose unbuild node_modules\.staging\node-jsdom-bdc4c280
+229 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1 is being purged from base D:\workspace\webstorm\web-crawler
+230 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1
+231 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88 is being purged from base D:\workspace\webstorm\web-crawler
+232 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88
+233 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0 is being purged from base D:\workspace\webstorm\web-crawler
+234 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0
+235 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280 is being purged from base D:\workspace\webstorm\web-crawler
+236 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280
+237 verbose tar unpack C:\Users\taomili\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+238 verbose tar unpacking to D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1
+239 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1 is being purged
+240 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1
+241 verbose tar unpack C:\Users\taomili\AppData\Roaming\npm-cache\contextify\0.1.15\package.tgz
+242 verbose tar unpacking to D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88
+243 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88 is being purged
+244 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88
+245 verbose tar unpack C:\Users\taomili\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+246 verbose tar unpacking to D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0
+247 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0 is being purged
+248 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0
+249 verbose tar unpack C:\Users\taomili\AppData\Roaming\npm-cache\node-jsdom\3.1.5\package.tgz
+250 verbose tar unpacking to D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280
+251 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280 is being purged
+252 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280
+253 silly gunzTarPerm modes [ '777', '666' ]
+254 silly gunzTarPerm modes [ '777', '666' ]
+255 silly gunzTarPerm modes [ '777', '666' ]
+256 silly gunzTarPerm modes [ '777', '666' ]
+257 silly gunzTarPerm extractEntry package.json
+258 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+259 silly gunzTarPerm extractEntry package.json
+260 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+263 silly gunzTarPerm extractEntry package.json
+264 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+265 silly gunzTarPerm extractEntry README.md
+266 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+267 silly gunzTarPerm extractEntry README.md
+268 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+269 silly gunzTarPerm extractEntry README.md
+270 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+271 silly gunzTarPerm extractEntry bindings.js
+272 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+273 silly gunzTarPerm extractEntry include_dirs.js
+274 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+275 silly gunzTarPerm extractEntry Changelog.md
+276 silly gunzTarPerm modified mode [ 'Changelog.md', 420, 438 ]
+277 silly gunzTarPerm extractEntry .npmignore
+278 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+279 silly gunzTarPerm extractEntry README.md
+280 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+281 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+282 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+283 silly gunzTarPerm extractEntry LICENSE.md
+284 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+285 silly gunzTarPerm extractEntry doc/new.md
+286 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+287 silly gunzTarPerm extractEntry LICENSE.txt
+288 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+289 silly gunzTarPerm extractEntry lib/README.md
+290 silly gunzTarPerm modified mode [ 'lib/README.md', 420, 438 ]
+291 silly gunzTarPerm extractEntry lib/jsdom.js
+292 silly gunzTarPerm modified mode [ 'lib/jsdom.js', 420, 438 ]
+293 silly gunzTarPerm extractEntry .travis.yml
+294 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+295 silly gunzTarPerm extractEntry LICENSE.txt
+296 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+297 silly gunzTarPerm extractEntry doc/asyncworker.md
+298 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+299 silly gunzTarPerm extractEntry lib/jsdom/contextify-shim.js
+300 silly gunzTarPerm modified mode [ 'lib/jsdom/contextify-shim.js', 420, 438 ]
+301 silly gunzTarPerm extractEntry .dntrc
+302 silly gunzTarPerm modified mode [ '.dntrc', 420, 438 ]
+303 silly gunzTarPerm extractEntry binding.gyp
+304 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+305 silly gunzTarPerm extractEntry lib/jsdom/utils.js
+306 silly gunzTarPerm modified mode [ 'lib/jsdom/utils.js', 420, 438 ]
+307 silly gunzTarPerm extractEntry lib/jsdom/virtual-console.js
+308 silly gunzTarPerm modified mode [ 'lib/jsdom/virtual-console.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry lib/jsdom/browser/Window.js
+310 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/Window.js', 420, 438 ]
+311 silly gunzTarPerm extractEntry doc/callback.md
+312 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+313 silly gunzTarPerm extractEntry doc/converters.md
+314 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+315 silly gunzTarPerm extractEntry doc/errors.md
+316 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+317 silly gunzTarPerm extractEntry doc/json.md
+318 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+319 silly gunzTarPerm extractEntry lib/jsdom/browser/documentAdapter.js
+320 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/documentAdapter.js', 420, 438 ]
+321 silly gunzTarPerm extractEntry lib/jsdom/browser/documentfeatures.js
+322 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/documentfeatures.js', 420, 438 ]
+323 silly gunzTarPerm extractEntry changelog
+324 silly gunzTarPerm modified mode [ 'changelog', 420, 438 ]
+325 silly gunzTarPerm extractEntry lib/contextify.js
+326 silly gunzTarPerm modified mode [ 'lib/contextify.js', 420, 438 ]
+327 silly gunzTarPerm extractEntry test/contextify.js
+328 silly gunzTarPerm modified mode [ 'test/contextify.js', 420, 438 ]
+329 silly gunzTarPerm extractEntry src/contextify.cc
+330 silly gunzTarPerm modified mode [ 'src/contextify.cc', 420, 438 ]
+331 silly gunzTarPerm extractEntry wscript
+332 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+333 silly gunzTarPerm extractEntry doc/maybe_types.md
+334 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+335 silly gunzTarPerm extractEntry doc/methods.md
+336 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+337 silly gunzTarPerm extractEntry lib/jsdom/browser/domtohtml.js
+338 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/domtohtml.js', 420, 438 ]
+339 silly gunzTarPerm extractEntry lib/jsdom/browser/history.js
+340 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/history.js', 420, 438 ]
+341 silly gunzTarPerm extractEntry doc/buffers.md
+342 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+343 silly gunzTarPerm extractEntry doc/node_misc.md
+344 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+345 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1\node_modules is being purged
+346 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1\node_modules
+347 silly gunzTarPerm extractEntry lib/jsdom/browser/htmltodom.js
+348 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/htmltodom.js', 420, 438 ]
+349 silly gunzTarPerm extractEntry lib/jsdom/browser/index.js
+350 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/index.js', 420, 438 ]
+351 silly gunzTarPerm extractEntry doc/object_wrappers.md
+352 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+353 silly gunzTarPerm extractEntry doc/persistent.md
+354 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+355 silly gunzTarPerm extractEntry lib/jsdom/browser/location.js
+356 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/location.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry lib/jsdom/browser/utils.js
+358 silly gunzTarPerm modified mode [ 'lib/jsdom/browser/utils.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry doc/scopes.md
+360 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+361 silly gunzTarPerm extractEntry doc/script.md
+362 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+363 silly gunzTarPerm extractEntry lib/jsdom/level1/core.js
+364 silly gunzTarPerm modified mode [ 'lib/jsdom/level1/core.js', 420, 438 ]
+365 silly gunzTarPerm extractEntry lib/jsdom/level2/core.js
+366 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/core.js', 420, 438 ]
+367 silly gunzTarPerm extractEntry doc/string_bytes.md
+368 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+369 silly gunzTarPerm extractEntry doc/v8_internals.md
+370 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+371 silly gunzTarPerm extractEntry lib/jsdom/level2/events.js
+372 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/events.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry lib/jsdom/level2/html.js
+374 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/html.js', 420, 438 ]
+375 silly gunzTarPerm extractEntry doc/v8_misc.md
+376 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+377 silly gunzTarPerm extractEntry nan.h
+378 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+379 silly gunzTarPerm extractEntry lib/jsdom/level2/style.js
+380 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/style.js', 420, 438 ]
+381 silly gunzTarPerm extractEntry lib/jsdom/level2/languages/javascript.js
+382 silly gunzTarPerm modified mode [ 'lib/jsdom/level2/languages/javascript.js', 420, 438 ]
+383 silly gunzTarPerm extractEntry nan_callbacks.h
+384 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+385 silly gunzTarPerm extractEntry lib/jsdom/level3/core.js
+386 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/core.js', 420, 438 ]
+387 silly gunzTarPerm extractEntry lib/jsdom/level3/ls.js
+388 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/ls.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry lib/jsdom/level3/xpath.js
+390 silly gunzTarPerm modified mode [ 'lib/jsdom/level3/xpath.js', 420, 438 ]
+391 silly gunzTarPerm extractEntry lib/jsdom/living/character-data.js
+392 silly gunzTarPerm modified mode [ 'lib/jsdom/living/character-data.js', 420, 438 ]
+393 silly gunzTarPerm extractEntry lib/jsdom/living/document-type.js
+394 silly gunzTarPerm modified mode [ 'lib/jsdom/living/document-type.js', 420, 438 ]
+395 silly gunzTarPerm extractEntry lib/jsdom/living/document.js
+396 silly gunzTarPerm modified mode [ 'lib/jsdom/living/document.js', 420, 438 ]
+397 silly gunzTarPerm extractEntry lib/jsdom/living/dom-implementation.js
+398 silly gunzTarPerm modified mode [ 'lib/jsdom/living/dom-implementation.js', 420, 438 ]
+399 silly gunzTarPerm extractEntry lib/jsdom/living/selectors.js
+400 silly gunzTarPerm modified mode [ 'lib/jsdom/living/selectors.js', 420, 438 ]
+401 silly gunzTarPerm extractEntry lib/jsdom/living/comment.js
+402 silly gunzTarPerm modified mode [ 'lib/jsdom/living/comment.js', 420, 438 ]
+403 silly gunzTarPerm extractEntry lib/jsdom/living/node-filter.js
+404 silly gunzTarPerm modified mode [ 'lib/jsdom/living/node-filter.js', 420, 438 ]
+405 silly gunzTarPerm extractEntry lib/jsdom/living/node.js
+406 silly gunzTarPerm modified mode [ 'lib/jsdom/living/node.js', 420, 438 ]
+407 silly gunzTarPerm extractEntry lib/jsdom/living/processing-instruction.js
+408 silly gunzTarPerm modified mode [ 'lib/jsdom/living/processing-instruction.js', 420, 438 ]
+409 silly gunzTarPerm extractEntry lib/jsdom/living/text.js
+410 silly gunzTarPerm modified mode [ 'lib/jsdom/living/text.js', 420, 438 ]
+411 silly gunzTarPerm extractEntry lib/jsdom/living/index.js
+412 silly gunzTarPerm modified mode [ 'lib/jsdom/living/index.js', 420, 438 ]
+413 silly gunzTarPerm extractEntry lib/jsdom/living/helpers/validate-names.js
+414 silly gunzTarPerm modified mode [ 'lib/jsdom/living/helpers/validate-names.js', 420, 438 ]
+415 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+416 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+417 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+418 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+419 silly gunzTarPerm extractEntry nan_converters.h
+420 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+421 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+422 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+423 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+424 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+425 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+426 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+427 silly gunzTarPerm extractEntry nan_json.h
+428 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+429 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+430 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+431 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+432 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+433 silly gunzTarPerm extractEntry nan_new.h
+434 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+435 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88\node_modules is being purged
+436 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88\node_modules
+437 silly gunzTarPerm extractEntry nan_object_wrap.h
+438 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+439 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+440 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+441 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+442 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+443 silly gunzTarPerm extractEntry nan_private.h
+444 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+445 silly gunzTarPerm extractEntry nan_string_bytes.h
+446 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+447 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+448 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+449 silly gunzTarPerm extractEntry nan_weak.h
+450 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+451 silly gunzTarPerm extractEntry CHANGELOG.md
+452 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+453 silly gunzTarPerm extractEntry tools/package.json
+454 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+455 silly gunzTarPerm extractEntry tools/README.md
+456 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+457 silly gunzTarPerm extractEntry tools/1to2.js
+458 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+459 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280\node_modules is being purged
+460 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280\node_modules
+461 silly gentlyRm D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0\node_modules is being purged
+462 verbose gentlyRm don't care about contents; nuking D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0\node_modules
+463 silly doParallel preinstall 4
+464 silly preinstall bindings@1.2.1 D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1
+465 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+466 silly preinstall nan@2.6.2 D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0
+467 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+468 silly preinstall contextify@0.1.15 D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88
+469 info lifecycle contextify@0.1.15~preinstall: contextify@0.1.15
+470 silly preinstall node-jsdom@3.1.5 D:\workspace\webstorm\web-crawler\node_modules\.staging\node-jsdom-bdc4c280
+471 info lifecycle node-jsdom@3.1.5~preinstall: node-jsdom@3.1.5
+472 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+473 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+474 silly lifecycle contextify@0.1.15~preinstall: no script for preinstall, continuing
+475 silly lifecycle node-jsdom@3.1.5~preinstall: no script for preinstall, continuing
+476 silly doReverseSerial remove 0
+477 silly doSerial move 0
+478 silly doSerial finalize 4
+479 silly finalize D:\workspace\webstorm\web-crawler\node_modules\bindings
+480 silly finalize D:\workspace\webstorm\web-crawler\node_modules\nan
+481 silly finalize D:\workspace\webstorm\web-crawler\node_modules\contextify
+482 silly finalize D:\workspace\webstorm\web-crawler\node_modules\node-jsdom
+483 silly doSerial build 4
+484 silly build bindings@1.2.1
+485 info linkStuff bindings@1.2.1
+486 silly linkStuff bindings@1.2.1 has D:\workspace\webstorm\web-crawler\node_modules as its parent node_modules
+487 verbose linkBins bindings@1.2.1
+488 verbose linkMans bindings@1.2.1
+489 silly build nan@2.6.2
+490 info linkStuff nan@2.6.2
+491 silly linkStuff nan@2.6.2 has D:\workspace\webstorm\web-crawler\node_modules as its parent node_modules
+492 verbose linkBins nan@2.6.2
+493 verbose linkMans nan@2.6.2
+494 silly build contextify@0.1.15
+495 info linkStuff contextify@0.1.15
+496 silly linkStuff contextify@0.1.15 has D:\workspace\webstorm\web-crawler\node_modules as its parent node_modules
+497 verbose linkBins contextify@0.1.15
+498 verbose linkMans contextify@0.1.15
+499 silly build node-jsdom@3.1.5
+500 info linkStuff node-jsdom@3.1.5
+501 silly linkStuff node-jsdom@3.1.5 has D:\workspace\webstorm\web-crawler\node_modules as its parent node_modules
+502 verbose linkBins node-jsdom@3.1.5
+503 verbose linkMans node-jsdom@3.1.5
+504 silly doSerial global-link 0
+505 silly doParallel update-linked 0
+506 silly doSerial install 4
+507 silly install bindings@1.2.1 D:\workspace\webstorm\web-crawler\node_modules\.staging\bindings-33b7d2b1
+508 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+509 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+510 silly install nan@2.6.2 D:\workspace\webstorm\web-crawler\node_modules\.staging\nan-d67853f0
+511 info lifecycle nan@2.6.2~install: nan@2.6.2
+512 silly lifecycle nan@2.6.2~install: no script for install, continuing
+513 silly install contextify@0.1.15 D:\workspace\webstorm\web-crawler\node_modules\.staging\contextify-134f4c88
+514 info lifecycle contextify@0.1.15~install: contextify@0.1.15
+515 verbose lifecycle contextify@0.1.15~install: unsafe-perm in lifecycle true
+516 verbose lifecycle contextify@0.1.15~install: PATH: D:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\workspace\webstorm\web-crawler\node_modules\contextify\node_modules\.bin;D:\workspace\webstorm\web-crawler\node_modules\.bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Java\jdk1.8.0_60\bin;D:\Program Files\Java\jdk1.8.0_60\jre\bin;D:\java\apache-maven-3.3.3\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;D:\Program Files (x86)\QuickTime\QTSystem\;D:\Program Files\nodejs\;D:\Program Files\Git\bin;D:\Program Files\postgresql-9.4.5-3-windows-x64-binaries\pgsql\bin;C:\Users\taomili\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;D:\go1.6\bin;D:\Program Files\TortoiseGit\bin;D:\software\nginx-1.11.3\;D:\python2.7.12\;C:\Users\taomili\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+517 verbose lifecycle contextify@0.1.15~install: CWD: D:\workspace\webstorm\web-crawler\node_modules\contextify
+518 silly lifecycle contextify@0.1.15~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+519 silly lifecycle contextify@0.1.15~install: Returned: code: 1  signal: null
+520 info lifecycle contextify@0.1.15~install: Failed to exec install script
+521 verbose unlock done using C:\Users\taomili\AppData\Roaming\npm-cache\_locks\staging-467a112aa65b3edc.lock for D:\workspace\webstorm\web-crawler\node_modules\.staging
+522 silly rollbackFailedOptional Starting
+523 silly rollbackFailedOptional Finishing
+524 silly runTopLevelLifecycles Starting
+525 silly runTopLevelLifecycles Finishing
+526 silly install printInstalled
+527 warn web-crawler@1.0.0 No description
+528 warn web-crawler@1.0.0 No repository field.
+529 verbose stack Error: contextify@0.1.15 install: `node-gyp rebuild`
+529 verbose stack Exit status 1
+529 verbose stack     at EventEmitter.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:232:16)
+529 verbose stack     at emitTwo (events.js:100:13)
+529 verbose stack     at EventEmitter.emit (events.js:185:7)
+529 verbose stack     at ChildProcess.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+529 verbose stack     at emitTwo (events.js:100:13)
+529 verbose stack     at ChildProcess.emit (events.js:185:7)
+529 verbose stack     at maybeClose (internal/child_process.js:827:16)
+529 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+530 verbose pkgid contextify@0.1.15
+531 verbose cwd D:\workspace\webstorm\web-crawler
+532 error Windows_NT 10.0.14393
+533 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-jsdom"
+534 error node v5.7.0
+535 error npm  v3.6.0
+536 error code ELIFECYCLE
+537 error contextify@0.1.15 install: `node-gyp rebuild`
+537 error Exit status 1
+538 error Failed at the contextify@0.1.15 install script 'node-gyp rebuild'.
+538 error Make sure you have the latest version of node.js and npm installed.
+538 error If you do, this is most likely a problem with the contextify package,
+538 error not with npm itself.
+538 error Tell the author that this fails on your system:
+538 error     node-gyp rebuild
+538 error You can get information on how to open an issue for this project with:
+538 error     npm bugs contextify
+538 error Or if that isn't available, you can get their info via:
+538 error     npm owner ls contextify
+538 error There is likely additional logging output above.
+539 verbose exit [ 1, true ]
